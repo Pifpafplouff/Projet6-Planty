@@ -1,0 +1,277 @@
+/*
+Theme Name: Planty 
+Text Domain: planty-tips
+Template: astra
+Version: 4.8.7
+Description: Théme Planty basé sur le théme Astra
+Tags: boisson, enregie, plante
+Author: Alan
+Author URI: https://openclassrooms.com/
+Theme URI: https://openclassrooms.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+:root {
+  --couleur-fond: #ffffff;
+  --couleur-texte: #000000;
+  --couleur-texte-survol: #ffffff;
+  --couleur-fond-survol: #dc9f96;
+  --couleur-mention-survol: #3b8e46;
+
+  --police: "Syne", sans-serif;
+}
+
+#menu-1-849da34 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+}
+#menu-item-193 {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  box-ordinal-group: 2;
+}
+#menu-item-191 {
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  box-ordinal-group: 3;
+}
+
+#lien-admin {
+  color: var(--couleur-mention-survol); /* Couleur noire pour le lien */
+  text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.elementor-43 .elementor-element.elementor-element-38f1ca8 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+  display: block;
+  margin: 0 auto;
+  background-color: #e0b9b4;
+}
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+  max-width: 40%;
+}
+
+.formulaire-contact {
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+  margin: auto;
+  background-color: transparent;
+  width: 100%; /* Assurez-vous que le formulaire prend toute la largeur */
+}
+
+.formulaire-contact h2 {
+  grid-column: 1 / 4;
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+/* Champs de saisie */
+.formulaire-contact label {
+  display: flex;
+  text-align: left;
+  margin: auto;
+}
+
+.wpcf7 label,
+.wpcf7-quiz-label {
+  color: white; /* Couleur du texte des labels en blanc */
+}
+
+.formulaire-contact input,
+.formulaire-contact textarea {
+  width: 100%; /* Largeur à 100% pour les champs */
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #ffffff; /* Couleur de fond des champs */
+  color: white; /* Couleur du texte dans les champs */
+  box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur totale */
+}
+
+.separator {
+  background-color: #ffff;
+  width: 1px;
+}
+
+.form-wrapper {
+  text-align: left;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.order-options {
+  display: flex;
+  padding-top: 24px;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center; /* Alignement à gauche pour le texte */
+  margin-bottom: 10px;
+  width: 50%; /* Largeur de chaque colonne */
+  padding: 0 10px; /* Espacement interne pour les colonnes */
+}
+
+.order-item-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* Alignement à gauche pour le texte */
+  margin-bottom: 10px;
+  width: 50%; /* Largeur de chaque colonne */
+  padding: 5px 10px; /* Espacement interne pour les colonnes */
+}
+
+.order-item-1 h3 {
+  color: #ffffff;
+  text-align: left;
+}
+
+.item-image {
+  width: 240px;
+  height: 150px;
+  background-size: cover;
+  background-position: 0%;
+  margin-bottom: 10px;
+}
+
+.label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: white;
+}
+
+input[type="number"] {
+  align-items: center;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+
+.form-wrapper::before,
+.form-wrapper::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.form-wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+.form-wrapper::before {
+  top: 0;
+}
+
+.form-wrapper::after {
+  bottom: 0;
+}
+
+/*Titre*/
+.form-wrapper h2,
+.titre {
+  text-align: left;
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.titre {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.formulaire-contact label,
+.formulaire-contact input {
+  color: white;
+}
+
+@media only screen and (max-width: 767.98px) and (min-width: 360px) {
+  .order-options {
+    display: flex;
+    padding-top: 24px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments */
+  }
+
+  .order-item {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 100px; */
+    text-align: center; /* Alignement à gauche pour le texte */
+    margin-bottom: 10px;
+    width: 100%; /* Largeur de chaque colonne */
+    padding: 0 10px; /* Espacement interne pour les colonnes */
+  }
+
+  .item-image {
+    margin: 0 auto; /* Centrer l'image horizontalement */
+    display: flex; /* Utiliser flex pour centrer le contenu */
+    justify-content: center; /* Centrer le contenu à l'intérieur */
+    align-items: center; /* Centrer le contenu à l'intérieur */
+  }
+
+  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+    max-width: 30%;
+    margin: 20px auto; /* Centrer le champ */
+  }
+
+  .formulaire-contact {
+    display: flex;
+    flex-direction: column; /* Changer en colonne pour un alignement vertical */
+    align-items: center; /* Centrer les éléments */
+    margin: 50px auto;
+    background-color: transparent;
+  }
+
+  .formulaire-contact h2 {
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center; /* Centrer le titre */
+  }
+
+  .order-item-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left; /* Alignement à gauche pour le texte */
+    margin-bottom: 10px;
+    width: 100%; /*Largeur de chaque colonne*/
+    padding: 5px 10px; /* Espacement interne pour les colonnes */
+  }
+
+  #livraison {
+    color: white;
+    text-align: center; /* Centrer le texte */
+  }
+}
