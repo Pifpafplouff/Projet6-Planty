@@ -47,6 +47,20 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   text-decoration: none; /* Supprime le soulignement du lien */
 }
 
+#menu-item-193 a {
+  display: block; /* Permet à l'élément de prendre toute la largeur */
+  padding: 17px; /* Ajoute de l'espace autour du texte */
+  color: var(--couleur-texte); /* Couleur du texte par défaut */
+  text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+#menu-item-193 a:hover {
+  background-color: var(
+    --couleur-fond-survol
+  ); /* Change la couleur de fond au survol */
+  color: var(--couleur-texte-survol); /* Change la couleur du texte au survol */
+}
+
 .elementor-43 .elementor-element.elementor-element-38f1ca8 {
   margin-left: auto;
   margin-right: auto;
