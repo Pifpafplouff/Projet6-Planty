@@ -49,9 +49,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #menu-item-193 a {
   display: block; /* Permet à l'élément de prendre toute la largeur */
-  padding: 17px; /* Ajoute de l'espace autour du texte */
+  margin-bottom: -10px;
+  padding: 17px 16px 16px 16px; /* Ajoute de l'espace autour du texte */
   color: var(--couleur-texte); /* Couleur du texte par défaut */
   text-decoration: none; /* Supprime le soulignement du lien */
+  font-family: var(--police);
+  font-weight: bold;
 }
 
 #menu-item-193 a:hover {
