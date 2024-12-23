@@ -22,5 +22,3 @@ add_filter('wp_nav_menu_items', 'ajout_element_menu', 10, 2);
 
 
 ?>
-
-

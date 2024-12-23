@@ -123,6 +123,12 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
   margin-bottom: 20px;
 }
 
+.order-options-1 {
+  display: flex;
+  padding-top: 24px;
+  margin-bottom: 20px;
+}
+
 .order-item {
   display: flex;
   flex-direction: column;
@@ -214,9 +220,37 @@ input[type="number"] {
   color: white;
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 767.98px) {
+  .order-options-2 {
+    display: flex; /* Utilise flexbox pour l'alignement */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+    justify-content: center; /* Centre les éléments horizontalement */
+  }
+
+  .order-options-2 .order-item {
+    width: 280px;
+    margin-right: 10px;
+    margin-bottom: 20px; /* Ajoute un espacement entre les images */
+  }
+
+  .order-options-2 .item-image {
+    width: 280px; /* Assure que l'image prend toute la largeur de son conteneur */
+    height: 180px; /* Maintient le ratio d'aspect de l'image */
+  }
+}
+
 @media only screen and (max-width: 767.98px) and (min-width: 360px) {
   .order-options {
     display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    margin-bottom: 20px;
+    align-items: center; /* Centrer les éléments */
+  }
+
+  .order-options-1 {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 24px;
     margin-bottom: 20px;
     flex-direction: column;
