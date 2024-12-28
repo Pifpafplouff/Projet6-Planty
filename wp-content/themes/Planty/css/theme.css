@@ -49,7 +49,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #menu-item-193 a {
   display: block; /* Permet à l'élément de prendre toute la largeur */
-  margin-bottom: -10px;
   padding: 17px 16px 16px 16px; /* Ajoute de l'espace autour du texte */
   color: var(--couleur-texte); /* Couleur du texte par défaut */
   text-decoration: none; /* Supprime le soulignement du lien */
@@ -130,7 +129,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
   background-color: transparent;
   border-radius: 10px;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -152,7 +151,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
   text-align: center; /* Alignement à gauche pour le texte */
   margin-bottom: 10px;
   width: 50%; /* Largeur de chaque colonne */
-  padding: 0 10px; /* Espacement interne pour les colonnes */
+  padding: 0 5px; /* Espacement interne pour les colonnes */
 }
 
 .order-item-1 {
