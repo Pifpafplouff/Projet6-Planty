@@ -81,7 +81,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
 .formulaire-contact {
   display: flex;
   flex-direction: column;
-  align-content: left;
+  align-content: center;
   margin: auto;
   background-color: transparent;
   width: 100%; /* Assurez-vous que le formulaire prend toute la largeur */
