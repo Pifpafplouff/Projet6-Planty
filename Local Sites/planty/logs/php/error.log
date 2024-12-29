@@ -1,0 +1,716 @@
+[10-Dec-2024 13:01:19 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\gaona\Local Sites\planty\app\public/wp-content/themes/Planty/css/child_style.css in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 7
+[10-Dec-2024 13:01:19 UTC] PHP Warning:  filemtime(): stat failed for C:\Users\gaona\Local Sites\planty\app\public/wp-content/themes/Planty/css/child_style.css in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 7
+[12-Dec-2024 09:33:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_enqueue_styles" not found or invalid function name in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\general-template.php(3064): do_action('wp_head')
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\header.php(7): wp_head()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\gaona\\...')
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\gaona\\...', true, Array)
+#10 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#14 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#15 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[12-Dec-2024 09:33:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "theme_enqueue_styles" not found or invalid function name in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\general-template.php(3064): do_action('wp_head')
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\header.php(7): wp_head()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template.php(810): require_once('C:\\Users\\gaona\\...')
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template.php(745): load_template('C:\\Users\\gaona\\...', true, Array)
+#10 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#14 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#15 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Dec-2024 09:25:06 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting variable in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[19-Dec-2024 09:25:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[19-Dec-2024 09:25:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[19-Dec-2024 09:25:12 UTC] PHP Parse error:  syntax error, unexpected token "[", expecting variable in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[19-Dec-2024 09:25:12 UTC] PHP Parse error:  syntax error, unexpected token "[", expecting variable in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[19-Dec-2024 09:25:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_element_menu" not found or invalid function name in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1252): Elementor\Frontend->get_builder_content(196, false)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(677): Elementor\Frontend->get_builder_content_for_display(196)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#17 [internal function]: do_shortcode_tag(Array)
+#18 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#26 [internal function]: do_shortcode_tag(Array)
+#27 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1079): Elementor\Frontend->get_builder_content(11)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#36 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#37 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#42 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Dec-2024 09:25:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_element_menu" not found or invalid function name in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1252): Elementor\Frontend->get_builder_content(196, false)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(677): Elementor\Frontend->get_builder_content_for_display(196)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#17 [internal function]: do_shortcode_tag(Array)
+#18 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#26 [internal function]: do_shortcode_tag(Array)
+#27 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1079): Elementor\Frontend->get_builder_content(11)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#36 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#37 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#42 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Dec-2024 09:25:31 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_element_menu" not found or invalid function name in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1252): Elementor\Frontend->get_builder_content(196, false)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(677): Elementor\Frontend->get_builder_content_for_display(196)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#17 [internal function]: do_shortcode_tag(Array)
+#18 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#26 [internal function]: do_shortcode_tag(Array)
+#27 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1079): Elementor\Frontend->get_builder_content(11)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#36 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#37 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#42 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Dec-2024 09:31:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "ajout_element_menu" not found or invalid function name in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#9 [internal function]: do_shortcode_tag(Array)
+#10 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1252): Elementor\Frontend->get_builder_content(196, false)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(677): Elementor\Frontend->get_builder_content_for_display(196)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#17 [internal function]: do_shortcode_tag(Array)
+#18 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2325): Elementor\Widget_Shortcode->render()
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(69): Elementor\Element_Base->print_element()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#26 [internal function]: do_shortcode_tag(Array)
+#27 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1184): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1079): Elementor\Frontend->get_builder_content(11)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#36 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#37 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#42 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 324
+[19-Dec-2024 13:18:43 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:27 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:27 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:28 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:28 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:30 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:30 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:31 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:31 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:32 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:35 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:39 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:43 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:43 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:46 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:59 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:59 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:59 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:19:59 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:13 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:14 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:29 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:44 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:56 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:56 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:57 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:58 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:20:59 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:00 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:04 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:12 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:14 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:19 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:29 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:32 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:33 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:35 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:39 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:44 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:46 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:46 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:47 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:49 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:57 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:21:59 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:00 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:00 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:14 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:27 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:27 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:30 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:33 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:36 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 13:22:46 UTC] PHP Parse error:  syntax error, unexpected token "&&", expecting "{" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 11
+[19-Dec-2024 14:07:14 UTC] PHP Parse error:  syntax error, unexpected token "if", expecting "," or ";" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 20
+[19-Dec-2024 14:09:09 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[19-Dec-2024 14:09:11 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[19-Dec-2024 14:09:11 UTC] PHP Parse error:  syntax error, unexpected token "return" in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[19-Dec-2024 14:28:56 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 17
+[19-Dec-2024 14:34:01 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 17
+[19-Dec-2024 14:36:57 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 17
+[22-Dec-2024 10:06:12 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 17
+[22-Dec-2024 10:09:40 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[22-Dec-2024 10:09:42 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[22-Dec-2024 10:09:49 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[22-Dec-2024 10:10:00 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[22-Dec-2024 10:10:51 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:13
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 13
+[22-Dec-2024 10:10:58 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:13
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 13
+[22-Dec-2024 10:13:41 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[22-Dec-2024 10:13:50 UTC] PHP Warning:  Undefined variable $admin in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 18
+[22-Dec-2024 10:28:49 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:14
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[22-Dec-2024 10:29:11 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:14
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[22-Dec-2024 10:29:24 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:14
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[22-Dec-2024 10:30:35 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:14
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 14
+[22-Dec-2024 10:39:08 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:15
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): ajout_element_menu('<li id="menu-it...', Object(stdClass))
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, false)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#27 [internal function]: do_shortcode_tag(Array)
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1096): Elementor\Frontend->get_builder_content(11)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Frontend->apply_builder_in_content('[hfe_template i...')
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('[hfe_template i...', Array)
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\post-template.php(256): apply_filters('the_content', '[hfe_template i...')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(190): the_content()
+#37 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\module.php(207): call_user_func(Array)
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(19): Elementor\Modules\PageTemplates\Module->print_content()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\gaona\\...')
+#42 C:\Users\gaona\Local Sites\planty\app\public\index.php(17): require('C:\\Users\\gaona\\...')
+#43 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 15
+[22-Dec-2024 10:44:19 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 19
+[22-Dec-2024 10:44:19 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 19
+[23-Dec-2024 12:43:13 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ajout_element_menu(), 1 passed in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:10
+Stack trace:
+#0 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(326): ajout_element_menu('<li id="menu-it...')
+#1 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\widgets-manager\widgets\navigation-menu\navigation-menu.php(2022): wp_nav_menu(Object(stdClass))
+#4 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): HFE\WidgetsManager\Widgets\NavigationMenu\Navigation_Menu->render()
+#5 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(483): Elementor\Widget_Base->print_content()
+#8 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\modules\element-cache\module.php(73): Elementor\Element_Base->print_element()
+#9 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}(Array, '', 'elementor-eleme...')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(elemen...', 'do_shortcode_ta...', '<div class="ele...')
+#12 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1865): do_shortcode('<div class="ele...')
+#13 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1200): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1201): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1269): Elementor\Frontend->get_builder_content(196, true)
+#16 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(694): Elementor\Frontend->get_builder_content_for_display(196)
+#17 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(434): Header_Footer_Elementor->render_template(Array, '', 'hfe_template')
+#18 [internal function]: do_shortcode_tag(Array)
+#19 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(hfe_te...', 'do_shortcode_ta...', '[hfe_template i...')
+#20 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\widgets\shortcode.php(141): do_shortcode('[hfe_template i...')
+#21 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2366): Elementor\Widget_Shortcode->render()
+#22 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(636): Elementor\Controls_Stack->render_by_mode()
+#23 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(758): Elementor\Widget_Base->render_content()
+#24 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(618): Elementor\Widget_Base->get_raw_data(true)
+#25 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(1084): Elementor\Element_Base->get_raw_data(true)
+#26 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\base\document.php(737): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#27 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(1070): Elementor\Core\Base\Document->get_initial_config()
+#28 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\editor\loader\common\editor-common-scripts-settings.php(38): Elementor\Controls_Stack->get_config()
+#29 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(145): Elementor\Core\Editor\Loader\Common\Editor_Common_Scripts_Settings::get()
+#30 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\editor\editor.php(364): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->enqueue_scripts()
+#31 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->enqueue_scripts('')
+#32 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#33 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#34 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#35 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#36 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#37 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#38 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\general-template.php(3064): do_action('wp_head')
+#39 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\includes\editor-templates\editor-wrapper.php(31): wp_head()
+#40 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\editor\loader\v2\editor-v2-loader.php(195): include('C:\\Users\\gaona\\...')
+#41 C:\Users\gaona\Local Sites\planty\app\public\wp-content\plugins\elementor\core\editor\editor.php(169): Elementor\Core\Editor\Loader\V2\Editor_V2_Loader->print_root_template()
+#42 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Editor\Editor->init('')
+#43 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#44 C:\Users\gaona\Local Sites\planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#45 C:\Users\gaona\Local Sites\planty\app\public\wp-admin\admin.php(419): do_action('admin_action_el...')
+#46 C:\Users\gaona\Local Sites\planty\app\public\wp-admin\post.php(12): require_once('C:\\Users\\gaona\\...')
+#47 {main}
+  thrown in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 10
+[23-Dec-2024 12:43:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[23-Dec-2024 12:43:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\gaona\Local Sites\planty\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[23-Dec-2024 14:10:23 UTC] PHP Fatal error:  Cannot redeclare theme_enqueue_styles() (previously declared in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php:6) in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 33
+[23-Dec-2024 15:15:39 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:39 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:39 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:39 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:39 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:40 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:40 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:40 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:40 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:40 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:41 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:41 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:41 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:43 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:43 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:47 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:47 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:55 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:58 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:15:59 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:00 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:00 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:00 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:02 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:02 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:07 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
+[23-Dec-2024 15:16:07 UTC] PHP Warning:  Attempt to read property "theme_location" on int in C:\Users\gaona\Local Sites\planty\app\public\wp-content\themes\Planty\functions.php on line 12
